@@ -3,35 +3,134 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.headcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
 }
 
 .header {
-    background-color: #1f2937;
     display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
     align-items: center;
-    width: auto;
-    height: 100px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .logo {
-    color: #f9faf8;
-    font-weight: 900;
     font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-left: 200px;
 }
 
 ul {
     display: flex;
     list-style: none;
-    
+    padding: 0;
+    margin: 0;
+    margin-right: 200px;
 }
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
+    margin-left: 24px;
     font-size: 18px;
-    font-weight: 400;
-    padding-left: 24px;
 }
+
+.s2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 125px;
+    justify-content: space-between;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.herosecond {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.signup {
+    color: #e5e7eb;
+    background-color: #3b82f6 ;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 3px 20px;
+    margin-top: 10px;
+}
+
+.heroimage {
+    color: #e5e7eb;
+    background-color: gray;
+    padding: 150px 250px;
+    margin-right: 200px;
+}
+
+.heroleft {
+    margin-left: 200px;
+}
+
+.s3 {
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.blankinfo {
+    border: 3px solid #3882f6;
+    color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.text {
+    margin-top: 8px;
+}
+
+.s4 {
+    background-color: #e5e7eb;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    justify-content: center;
+    width: 400px;
+}
+
